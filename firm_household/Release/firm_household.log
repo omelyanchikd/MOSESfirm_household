@@ -1,0 +1,25 @@
+﻿Build started 14.02.2016 16:35:55.
+     1>Project "D:\multiagent projects\trial versions\MOSESfirm_household\firm_household\firm_household.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\firm_household.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       CoreResGen:
+         No resources are out of date with respect to their source files. Skipping resource generation.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         firm_household.vcxproj -> D:\multiagent projects\trial versions\MOSESfirm_household\Release\firm_household.exe
+       FinalizeBuildStatus:
+         Deleting file "Release\firm_household.unsuccessfulbuild".
+         Touching "Release\firm_household.lastbuildstate".
+     1>Done Building Project "D:\multiagent projects\trial versions\MOSESfirm_household\firm_household\firm_household.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.28

@@ -1,0 +1,111 @@
+﻿Build started 10.07.2015 22:43:40.
+     1>Project "D:\multiagent projects\trial versions\firm_household\test_model01\test_model01.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\firm_household.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr:pure /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\firm_household.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.DataVisualization.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt stdafx.cpp /clr:nostdlib 
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr:pure /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\firm_household.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.DataVisualization.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt AssemblyInfo.cpp Result.cpp capital_director.cpp firm.cpp firm_director.cpp firm_household.cpp generator.cpp good_director.cpp household.cpp labormarket.cpp market.cpp raw_director.cpp world.cpp /clr:nostdlib 
+         AssemblyInfo.cpp
+         Result.cpp
+         capital_director.cpp
+         firm.cpp
+     1>firm.cpp(51): warning C4305: '=' : truncation from 'double' to 'float'
+     1>firm.cpp(67): warning C4305: '=' : truncation from 'double' to 'float'
+     1>firm.cpp(68): warning C4305: '=' : truncation from 'double' to 'float'
+     1>firm.cpp(69): warning C4305: '=' : truncation from 'double' to 'float'
+     1>firm.cpp(83): warning C4305: '=' : truncation from 'double' to 'float'
+     1>firm.cpp(84): warning C4305: '=' : truncation from 'double' to 'float'
+     1>firm.cpp(85): warning C4305: '=' : truncation from 'double' to 'float'
+     1>firm.cpp(191): warning C4018: '<' : signed/unsigned mismatch
+     1>firm.cpp(273): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>firm.cpp(306): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>firm.cpp(309): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>firm.cpp(322): warning C4305: '=' : truncation from 'double' to 'float'
+     1>firm.cpp(325): warning C4305: '=' : truncation from 'double' to 'float'
+     1>firm.cpp(335): warning C4305: '=' : truncation from 'double' to 'float'
+     1>firm.cpp(338): warning C4305: '=' : truncation from 'double' to 'float'
+     1>firm.cpp(384): warning C4244: 'return' : conversion from 'unsigned int' to 'float', possible loss of data
+         firm_director.cpp
+         firm_household.cpp
+     1>d:\multiagent projects\trial versions\firm_household\test_model01\Form1.h(1157): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\multiagent projects\trial versions\firm_household\test_model01\Form1.h(1170): warning C4018: '<' : signed/unsigned mismatch
+         generator.cpp
+     1>generator.cpp(7): warning C4018: '<' : signed/unsigned mismatch
+     1>generator.cpp(16): warning C4018: '<' : signed/unsigned mismatch
+     1>generator.cpp(26): warning C4018: '<' : signed/unsigned mismatch
+     1>generator.cpp(40): warning C4018: '<' : signed/unsigned mismatch
+     1>generator.cpp(47): warning C4018: '<' : signed/unsigned mismatch
+         good_director.cpp
+         household.cpp
+         labormarket.cpp
+     1>labormarket.cpp(20): warning C4018: '<' : signed/unsigned mismatch
+     1>labormarket.cpp(31): warning C4018: '<' : signed/unsigned mismatch
+         market.cpp
+     1>market.cpp(28): warning C4018: '<' : signed/unsigned mismatch
+     1>market.cpp(41): warning C4018: '<' : signed/unsigned mismatch
+     1>market.cpp(55): warning C4018: '<' : signed/unsigned mismatch
+     1>market.cpp(71): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\multiagent projects\trial versions\firm_household\test_model01\generator.h(46): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+                 market.cpp(34) : see reference to function template instantiation 'std::map<_Kty,_Ty> invert<firm*>(std::map<_Kty,_Ty>)' being compiled
+                 with
+                 [
+                     _Kty=firm *,
+                     _Ty=float
+                 ]
+         raw_director.cpp
+         world.cpp
+     1>world.cpp(7): warning C4305: '=' : truncation from 'double' to 'float'
+     1>world.cpp(29): warning C4305: '=' : truncation from 'double' to 'float'
+     1>world.cpp(52): warning C4018: '<' : signed/unsigned mismatch
+     1>world.cpp(56): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>world.cpp(56): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>world.cpp(56): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>world.cpp(97): warning C4018: '<' : signed/unsigned mismatch
+     1>world.cpp(107): warning C4018: '<' : signed/unsigned mismatch
+     1>world.cpp(114): warning C4018: '<' : signed/unsigned mismatch
+     1>world.cpp(120): warning C4018: '<' : signed/unsigned mismatch
+     1>world.cpp(127): warning C4018: '<' : signed/unsigned mismatch
+     1>world.cpp(133): warning C4018: '<' : signed/unsigned mismatch
+     1>world.cpp(140): warning C4018: '<' : signed/unsigned mismatch
+     1>world.cpp(152): warning C4018: '<' : signed/unsigned mismatch
+     1>world.cpp(163): warning C4018: '<' : signed/unsigned mismatch
+     1>world.cpp(173): warning C4018: '<' : signed/unsigned mismatch
+         Generating Code...
+     1>d:\multiagent projects\trial versions\firm_household\test_model01\generator.cpp(52): warning C4715: 'get_random' : not all control paths return a value
+     1>d:\multiagent projects\trial versions\firm_household\test_model01\firm.cpp(407): warning C4715: 'firm::get' : not all control paths return a value
+         All outputs are up-to-date.
+       CoreResGen:
+         No resources are out of date with respect to their source files. Skipping resource generation.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\multiagent projects\trial versions\firm_household\Release\firm_household.exe" /INCREMENTAL:NO /NOLOGO /ASSEMBLYRESOURCE:Release\test_model01.Form1.resources /ASSEMBLYRESOURCE:Release\test_model01.Result.resources /MANIFEST /ManifestFile:"Release\firm_household.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\multiagent projects\trial versions\firm_household\Release\firm_household.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Release\app.res
+         Release\AssemblyInfo.obj
+         Release\capital_director.obj
+         Release\firm.obj
+         Release\firm_director.obj
+         Release\generator.obj
+         Release\good_director.obj
+         Release\household.obj
+         Release\labormarket.obj
+         Release\raw_director.obj
+         Release\market.obj
+         Release\Result.obj
+         Release\stdafx.obj
+         Release\firm_household.obj
+         Release\world.obj
+         "Release\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         test_model01.vcxproj -> D:\multiagent projects\trial versions\firm_household\Release\firm_household.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\multiagent projects\trial versions\firm_household\Release\firm_household.exe;#1" /manifest Release\firm_household.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\firm_household.unsuccessfulbuild".
+         Touching "Release\firm_household.lastbuildstate".
+     1>Done Building Project "D:\multiagent projects\trial versions\firm_household\test_model01\test_model01.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:20.65
